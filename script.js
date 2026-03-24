@@ -17,13 +17,14 @@ const portfolioData = {
         },
         {
             title: "Networking",
-            description: "Mreže posmatram kao ključni deo security rada. Fokus mi je na TCP/IP osnovi, skeniranju, mapiranju servisa, pasivnoj analizi saobraćaja i povezivanju mrežnih tragova sa realnim ponašanjem sistema.",
+            description: "Mreže posmatram kao ključni deo security rada. Fokus mi je na TCP/IP osnovi, skeniranju, mapiranju servisa, pasivnoj analizi saobraćaja i povezivanju mrežnih tragova sa realnim ponašanjem sistema, uz formalnu osnovu iz administratorskog mrežnog smera i rada u Cisco Packet Tracer okruženju.",
             highlights: [
                 "Rad sa Nmap-om za skeniranje, servisnu detekciju i osnovnu enumeraciju.",
                 "Wireshark za čitanje protokola, tokova i anomaličnih obrazaca u saobraćaju.",
-                "Razumevanje kako mrežni sloj pomaže u potvrđivanju ili odbacivanju nalaza."
+                "Cisco Packet Tracer za mrežne topologije, osnovnu konfiguraciju i simulaciju mrežnih scenarija.",
+                "Razumevanje IP adresiranja, subnetting-a, routing/switching osnova i načina na koji mrežni sloj pomaže u potvrđivanju ili odbacivanju nalaza."
             ],
-            tags: ["TCP/IP", "Nmap", "Wireshark", "Scanning", "Enumeration"]
+            tags: ["TCP/IP", "Nmap", "Wireshark", "Cisco Packet Tracer", "Subnetting", "Routing & Switching"]
         },
         {
             title: "Systems",
@@ -85,19 +86,19 @@ const portfolioData = {
             technologies: ["Kali Linux", "VirtualBox", "Nmap", "Wireshark", "Linux CLI", "Burp Suite"],
             images: [
                 {
-                    src: "public/images/projects/project-proof-placeholder.svg",
-                    alt: "Placeholder za dokaz iz cyber lab projekta",
-                    caption: "PLACE YOUR PROOF IMAGES HERE: dodaj screenshot VM topologije, Nmap rezultata, terminal izlaza ili mrežnog saobraćaja iz lab okruženja."
+                    src: "public/images/projects/TryHackMe.png",
+                    alt: "TryHackMe dokaz iz laboratorijskog rada",
+                    caption: "TryHackMe laboratorijski rad i praktična security vežba u kontrolisanom okruženju."
                 }
             ],
             links: [
                 { label: "GitHub profil", href: "https://github.com/Jaddes" },
-                { label: "Dodaj direktan repo za lab", href: "https://github.com/Jaddes" }
+                { label: "TryHackMe", href: "https://tryhackme.com/TryHackMe" }
             ]
         },
         {
             category: "Network Analysis",
-            title: "Mrežna analiza, scanning i enumeracija u realnim tehničkim scenarijima",
+            title: "NetworkScanner: scanning i enumeracija u realnim tehničkim scenarijima",
             period: "Praktične vežbe i samostalni rad",
             summary: "Fokus projekta je na razumevanju mreže kao izvora istine: skeniranje cilja, razdvajanje relevantnih portova i servisa, analiza paketa i povezivanje dobijenih signala sa narednim koracima u bezbednoskom testiranju.",
             responsibilities: [
@@ -113,14 +114,14 @@ const portfolioData = {
             technologies: ["Nmap", "Wireshark", "TCP/IP", "Service Enumeration", "Packet Analysis"],
             images: [
                 {
-                    src: "public/images/projects/project-proof-placeholder.svg",
-                    alt: "Placeholder za dokaz iz mrežne analize",
-                    caption: "PLACE YOUR PROOF IMAGES HERE: dodaj screenshot Wireshark capture-a, Nmap skena, servisne enumeracije ili mrežne topologije."
+                    src: "public/images/projects/NetworkScanner.png",
+                    alt: "NetworkScanner projekat i rezultat mrežne analize",
+                    caption: "NetworkScanner projekat za scanning, enumeraciju i praktičan mrežni rad."
                 }
             ],
             links: [
                 { label: "GitHub profil", href: "https://github.com/Jaddes" },
-                { label: "Dodaj link do writeup-a ili repo-a", href: "https://github.com/Jaddes" }
+                { label: "NetworkScanner repo", href: "https://github.com/Jaddes/NetworkScanner" }
             ]
         },
         {
@@ -148,7 +149,7 @@ const portfolioData = {
             ],
             links: [
                 { label: "GitHub profil", href: "https://github.com/Jaddes" },
-                { label: "Dodaj repo za ShopDB", href: "https://github.com/Jaddes" }
+                { label: "ShopDB repo", href: "https://github.com/Jaddes/ShopDB" }
             ]
         }
     ],
@@ -219,8 +220,13 @@ const portfolioData = {
             images: [
                 {
                     src: "public/images/volunteering/volunteering-proof-placeholder.svg",
-                    alt: "Placeholder za KONTEH dokaz",
-                    caption: "PLACE YOUR PROOF IMAGES HERE: dodaj fotografije sa događaja, akreditaciju, zvaničnu objavu ili timsku fotografiju za KONTEH."
+                    alt: "Volonterski dokaz 1 za KONTEH",
+                    caption: "Volonterski dokaz 1: fotografija ili kadar sa događaja."
+                },
+                {
+                    src: "public/images/volunteering/volunteering-proof-placeholder1.svg",
+                    alt: "Volonterski dokaz 2 za KONTEH",
+                    caption: "Volonterski dokaz 2: dodatna fotografija ili drugi ugao sa angažmana."
                 }
             ],
             links: [
