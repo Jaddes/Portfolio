@@ -568,11 +568,17 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    align-items: flex-start;
 }
 
 .tag {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    flex: 0 0 auto;
+    width: fit-content;
+    max-width: 100%;
     min-height: 34px;
     padding: 0 12px;
     border-radius: 999px;
@@ -674,11 +680,17 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    align-items: flex-start;
 }
 
 .text-link {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    flex: 0 0 auto;
+    width: fit-content;
+    max-width: 100%;
     min-height: 38px;
     padding: 0 12px;
     border-radius: 999px;
@@ -1152,14 +1164,7 @@ body.modal-open {
         scroll-snap-align: start;
     }
 
-    .link-list {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
     .text-link {
-        justify-content: center;
-        text-align: center;
         min-height: 44px;
     }
 
