@@ -1,8 +1,5 @@
 ﻿// Centralno mesto za uređivanje sadržaja portfolija.
-// PLACE YOUR PROOF IMAGES HERE:
-// - public/images/projects/
-// - public/images/ctf/
-// - public/images/volunteering/
+// Ovde menjaš tekstove, linkove i slike po sekcijama.
 const portfolioData = {
     skills: [
         {
@@ -87,7 +84,7 @@ const portfolioData = {
             images: [
                 {
                     src: "public/images/projects/TryHackMe.png",
-                    alt: "TryHackMe dokaz iz laboratorijskog rada",
+                    alt: "TryHackMe laboratorijski rad",
                     caption: "TryHackMe laboratorijski rad i praktična security vežba u kontrolisanom okruženju."
                 }
             ],
@@ -140,13 +137,7 @@ const portfolioData = {
                 "Vežbam da tehnički sistem dokumentujem od modela do implementacije."
             ],
             technologies: ["SQL", "EER", "DDL", "DML", "JDBC", "Java"],
-            images: [
-                {
-                    src: "public/images/projects/project-proof-placeholder.svg",
-                    alt: "Placeholder za dokaz iz ShopDB projekta",
-                    caption: "PLACE YOUR PROOF IMAGES HERE: dodaj EER dijagram, screenshot SQL skripti, rezultat upita ili JDBC demonstraciju."
-                }
-            ],
+            images: [],
             links: [
                 { label: "GitHub profil", href: "https://github.com/Jaddes" },
                 { label: "ShopDB repo", href: "https://github.com/Jaddes/ShopDB" }
@@ -159,13 +150,7 @@ const portfolioData = {
             date: "15-17. novembar 2025",
             description: "Učešće u online Jeopardy CTF-u sa fokusom na web, exploitation i problem solving pod pritiskom vremena. Ovakva takmičenja mi pomažu da brzo procenim pravac rada, odvojim bitne tragove od šuma i učim iz realnog tempa rešavanja zadataka.",
             tags: ["Web", "Pwn", "Crypto", "Networking", "Jeopardy"],
-            images: [
-                {
-                    src: "public/images/ctf/ctf-proof-placeholder.svg",
-                    alt: "Placeholder za RCTF 2025 dokaz",
-                    caption: "PLACE YOUR PROOF IMAGES HERE: dodaj screenshot scoreboard-a, timskog rezultata, challenge rešenja ili potvrde učešća za RCTF 2025."
-                }
-            ],
+            images: [],
             links: [
                 { label: "Zvanični sajt", href: "https://rctf2025.xctf.org.cn/" },
                 { label: "CTFtime", href: "https://ctftime.org/event/2992/" }
@@ -174,15 +159,9 @@ const portfolioData = {
         {
             title: "BackdoorCTF 2025",
             date: "6-8. decembar 2025",
-            description: "Takmičenje koje posebno vrednujem zbog kombinacije više oblasti i potrebe da se brzo prebacujem između različitih tipova zadataka. Fokus je bio na učenju kroz rad: analiza task opisa, testiranje pretpostavki i prilagođavanje pristupa kada prvi pokušaj ne daje rezultat.",
+            description: "Online takmičenje koje posebno vrednujem zbog kombinacije više oblasti i potrebe da se brzo prebacujem između različitih tipova zadataka. Fokus je bio na učenju kroz rad: analiza task opisa, testiranje pretpostavki i prilagođavanje pristupa kada prvi pokušaj ne daje rezultat.",
             tags: ["Web", "Reverse", "Crypto", "Forensics", "Jeopardy"],
-            images: [
-                {
-                    src: "public/images/ctf/ctf-proof-placeholder.svg",
-                    alt: "Placeholder za BackdoorCTF 2025 dokaz",
-                    caption: "PLACE YOUR PROOF IMAGES HERE: dodaj screenshot scoreboard-a, task dashboard-a, timskog profila ili relevantnog writeup-a za BackdoorCTF 2025."
-                }
-            ],
+            images: [],
             links: [
                 { label: "Zvanični sajt", href: "https://backdoor.infoseciitr.in/" },
                 { label: "CTFtime", href: "https://ctftime.org/event/2915/" }
@@ -191,15 +170,9 @@ const portfolioData = {
         {
             title: "0CTF 2025",
             date: "20-22. decembar 2025",
-            description: "0CTF posmatram kao jaku referencu zato što traži disciplinu, strpljenje i dobru tehničku osnovu. Učešće u ovakvom događaju je vredno kao validacija interesa za ozbiljnije security izazove i spremnost da učim iz zahtevnijih problema.",
+            description: "Online učešće na 0CTF-u mi je važno kao kontakt sa zahtevnijim zadacima koji traže disciplinu, strpljenje i dobru tehničku osnovu. Takav format mi pomaže da učim iz ozbiljnijih security izazova i realnog takmičarskog tempa.",
             tags: ["Pwn", "Crypto", "Web", "High Difficulty", "Jeopardy"],
-            images: [
-                {
-                    src: "public/images/ctf/ctf-proof-placeholder.svg",
-                    alt: "Placeholder za 0CTF 2025 dokaz",
-                    caption: "PLACE YOUR PROOF IMAGES HERE: dodaj screenshot scoreboard-a, task liste, tima ili writeup referenci za 0CTF 2025."
-                }
-            ],
+            images: [],
             links: [
                 { label: "Zvanični sajt", href: "https://ctf.0ops.sjtu.cn/" },
                 { label: "CTFtime", href: "https://ctftime.org/event/2997/" }
@@ -219,14 +192,19 @@ const portfolioData = {
             tags: ["Teamwork", "Operations", "Communication", "Event Support"],
             images: [
                 {
-                    src: "public/images/volunteering/volunteering-proof-placeholder.svg",
-                    alt: "Volonterski dokaz 1 za KONTEH",
-                    caption: "Volonterski dokaz 1: fotografija ili kadar sa događaja."
+                    src: "public/images/volunteering/Konteh.jpg",
+                    alt: "Fotografija sa KONTEH volontiranja",
+                    caption: "Par trenutaka sa volontiranja na KONTEH događaju."
                 },
                 {
-                    src: "public/images/volunteering/volunteering-proof-placeholder1.svg",
-                    alt: "Volonterski dokaz 2 za KONTEH",
-                    caption: "Volonterski dokaz 2: dodatna fotografija ili drugi ugao sa angažmana."
+                    src: "public/images/volunteering/Konteh1.jpg",
+                    alt: "Fotografija sa KONTEH angažmana",
+                    caption: "Još jedan kadar sa angažmana i atmosfere tokom događaja."
+                },
+                {
+                    src: "public/images/volunteering/Konteh2.jpg",
+                    alt: "Fotografija sa KONTEH događaja",
+                    caption: "Dodatna fotografija sa volontiranja i organizacione podrške."
                 }
             ],
             links: [
@@ -243,13 +221,7 @@ const portfolioData = {
                 "Razvoj komunikacije, organizacije i odgovornosti u realnim aktivnostima."
             ],
             tags: ["Community", "Teamwork", "Coordination", "Student Organization"],
-            images: [
-                {
-                    src: "public/images/volunteering/volunteering-proof-placeholder.svg",
-                    alt: "Placeholder za EESTEC dokaz",
-                    caption: "PLACE YOUR PROOF IMAGES HERE: dodaj fotografije sa EESTEC događaja, event post, akreditaciju ili objavu o angažmanu."
-                }
-            ],
+            images: [],
             links: [
                 { label: "Zvanični sajt", href: "https://eestec.net/cities/novi-sad/" }
             ]
@@ -266,9 +238,9 @@ const portfolioData = {
             tags: ["Professional Events", "Communication", "Operations", "Tech Community"],
             images: [
                 {
-                    src: "public/images/volunteering/volunteering-proof-placeholder.svg",
-                    alt: "Placeholder za DSC dokaz",
-                    caption: "PLACE YOUR PROOF IMAGES HERE: dodaj fotografije sa konferencije, volontersku akreditaciju ili zvaničnu objavu sa događaja."
+                    src: "public/images/volunteering/volunteering-proof-placeholderDSC.jpg",
+                    alt: "Fotografija sa Data Science Conference angažmana",
+                    caption: "Fotografija sa Data Science Conference volonterskog angažmana."
                 }
             ],
             links: [
@@ -278,20 +250,14 @@ const portfolioData = {
         {
             organization: "BalCCon",
             role: "Community i event angažman",
-            description: "BalCCon je posebno relevantan zbog security i hacker community konteksta. Ovaj angažman je važan kao dokaz direktnog dodira sa regionalnom bezbednosnom scenom i kulturom razmene znanja.",
+            description: "BalCCon mi je posebno važan zbog security i hacker community konteksta i direktnog kontakta sa regionalnom bezbednosnom scenom. Na samom događaju fotografisanje nije bilo dozvoljeno, tako da trenutno nemam slike, ali mi je iskustvo ostalo bitno zbog atmosfere, predavanja i community razmene znanja.",
             outcomes: [
                 "Povezivanje sa security zajednicom i događajem sa jakim tehničkim identitetom.",
                 "Jačanje osećaja za community, razmenu znanja i profesionalno ponašanje na događajima.",
                 "Dodatna potvrda da interesovanje za cybersecurity nije samo akademsko već i praktično i zajedničko."
             ],
             tags: ["Cybersecurity Community", "Volunteering", "Networking", "Event Support"],
-            images: [
-                {
-                    src: "public/images/volunteering/volunteering-proof-placeholder.svg",
-                    alt: "Placeholder za BalCCon dokaz",
-                    caption: "PLACE YOUR PROOF IMAGES HERE: dodaj fotografije sa BalCCon događaja, propusnicu, zvaničan post ili zajedničku fotografiju."
-                }
-            ],
+            images: [],
             links: [
                 { label: "Zvanični sajt", href: "https://balccon.org/" },
                 { label: "BalCCon2k25", href: "https://2k25.balccon.org/" }
@@ -379,10 +345,7 @@ function renderProjects() {
                                 ${project.technologies.map((item) => `<span class="tag">${item}</span>`).join("")}
                             </div>
                         </div>
-                        <div class="proof-section">
-                            <p class="subsection-title">Dokazi i galerija</p>
-                            ${renderProofGallery(project.images)}
-                        </div>
+                        ${renderGallerySection(project.images, "Galerija")}
                         <div>
                             <p class="subsection-title">Linkovi</p>
                             <div class="link-list">
@@ -405,10 +368,6 @@ function renderCompetitions() {
                 <p>${competition.description}</p>
                 <div class="tag-list">
                     ${competition.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}
-                </div>
-                <div class="proof-section">
-                    <p class="subsection-title">Dokazi</p>
-                    ${renderProofGallery(competition.images)}
                 </div>
                 <div class="link-list">
                     ${competition.links.map((link) => `<a class="text-link" href="${link.href}" target="_blank" rel="noreferrer">${link.label}</a>`).join("")}
@@ -435,16 +394,26 @@ function renderVolunteering() {
                 <div class="tag-list">
                     ${item.tags.map((tag) => `<span class="tag">${tag}</span>`).join("")}
                 </div>
-                <div class="proof-section">
-                    <p class="subsection-title">Dokazi</p>
-                    ${renderProofGallery(item.images)}
-                </div>
+                ${renderGallerySection(item.images, "Galerija")}
                 <div class="link-list">
                     ${item.links.map((link) => `<a class="text-link" href="${link.href}" target="_blank" rel="noreferrer">${link.label}</a>`).join("")}
                 </div>
             </article>
         `)
         .join("");
+}
+
+function renderGallerySection(images, title) {
+    if (!images || !images.length) {
+        return "";
+    }
+
+    return `
+        <div class="proof-section">
+            <p class="subsection-title">${title}</p>
+            ${renderProofGallery(images)}
+        </div>
+    `;
 }
 
 function renderProofGallery(images) {
@@ -621,5 +590,3 @@ function boot() {
 }
 
 boot();
-
-
