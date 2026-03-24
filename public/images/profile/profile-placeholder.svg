@@ -1,0 +1,21 @@
+﻿<svg width="960" height="1120" viewBox="0 0 960 1120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="1120" rx="42" fill="#08131D"/>
+  <rect x="38" y="38" width="884" height="1044" rx="30" stroke="#1B3846" stroke-width="2"/>
+  <circle cx="480" cy="342" r="148" fill="url(#paint0_radial)"/>
+  <path d="M242 856C242 726.213 347.213 621 477 621H483C612.787 621 718 726.213 718 856V872H242V856Z" fill="url(#paint1_linear)"/>
+  <rect x="174" y="930" width="612" height="22" rx="11" fill="#163240"/>
+  <rect x="264" y="978" width="432" height="18" rx="9" fill="#113342"/>
+  <text x="480" y="118" fill="#77F0D7" font-family="'IBM Plex Mono', monospace" font-size="32" letter-spacing="5" text-anchor="middle">PROFILNA SLIKA</text>
+  <text x="480" y="1040" fill="#D6E6F1" font-family="'Sora', sans-serif" font-size="34" font-weight="600" text-anchor="middle">Dodaj profesionalnu fotografiju</text>
+  <text x="480" y="1082" fill="#88A3B6" font-family="'Sora', sans-serif" font-size="22" text-anchor="middle">public/images/profile/profile-placeholder.svg</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(480 342) rotate(90) scale(148)">
+      <stop stop-color="#7ED2FF"/>
+      <stop offset="1" stop-color="#173A49"/>
+    </radialGradient>
+    <linearGradient id="paint1_linear" x1="242" y1="621" x2="718" y2="872" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#133847"/>
+      <stop offset="1" stop-color="#0E2A35"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,20 @@
+﻿<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="36" fill="#08131D"/>
+  <rect x="32" y="32" width="1216" height="656" rx="28" stroke="#173746" stroke-width="2"/>
+  <rect x="94" y="116" width="1092" height="488" rx="24" fill="#0F2130" stroke="#244C5D"/>
+  <rect x="140" y="164" width="1000" height="48" rx="18" fill="#122A39"/>
+  <rect x="170" y="178" width="240" height="18" rx="9" fill="#77F0D7"/>
+  <rect x="140" y="250" width="1000" height="272" rx="20" fill="#0B1822" stroke="#1F3F4F"/>
+  <path d="M184 304H1096" stroke="#234B5B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M184 358H1096" stroke="#234B5B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M184 412H1096" stroke="#234B5B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M184 466H1096" stroke="#234B5B" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="220" cy="304" r="12" fill="#77F0D7"/>
+  <circle cx="220" cy="358" r="12" fill="#77F0D7"/>
+  <circle cx="220" cy="412" r="12" fill="#77F0D7"/>
+  <rect x="140" y="554" width="286" height="22" rx="11" fill="#173A4A"/>
+  <rect x="452" y="554" width="688" height="22" rx="11" fill="#113341"/>
+  <text x="640" y="84" fill="#77F0D7" font-family="'IBM Plex Mono', monospace" font-size="28" letter-spacing="4" text-anchor="middle">CTF PROOF PLACEHOLDER</text>
+  <text x="640" y="644" fill="#EAF8FF" font-family="'Sora', sans-serif" font-size="34" font-weight="600" text-anchor="middle">Dodaj scoreboard, task ili writeup dokaz</text>
+  <text x="640" y="684" fill="#8CA5B7" font-family="'Sora', sans-serif" font-size="20" text-anchor="middle">public/images/ctf/ctf-proof-placeholder.svg</text>
+</svg>

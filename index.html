@@ -1,96 +1,394 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="sr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boris Lahoš - Portfolio</title>
+    <title>Boris Lahoš | Junior Cybersecurity / Penetration Tester</title>
+    <meta name="description" content="Profesionalni portfolio Borisa Lahoša fokusiran na cybersecurity, penetration testing, CTF aktivnosti, praktične projekte i dokazive inženjerske rezultate.">
+    <meta name="keywords" content="Boris Lahos, Boris Lahoš, cybersecurity portfolio, penetration testing, Novi Sad, Serbia, CTF, network analysis, database project, junior cybersecurity">
+    <meta name="theme-color" content="#07131c">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="sr_RS">
+    <meta property="og:title" content="Boris Lahoš | Junior Cybersecurity / Penetration Tester">
+    <meta property="og:description" content="Cybersecurity portfolio sa projektima, CTF učešćem, volonterskim angažmanom i proof-based sekcijama spremnim za CV i QR upotrebu.">
+    <meta property="og:image" content="public/images/og/og-preview.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Boris Lahoš | Junior Cybersecurity / Penetration Tester">
+    <meta name="twitter:description" content="Cybersecurity portfolio sa dokazima, projektima, CTF sekcijom i profesionalnim ličnim brendingom.">
+    <meta name="twitter:image" content="public/images/og/og-preview.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="cv.css">
-    <script defer src="script.js"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Boris Lahoš",
+            "jobTitle": "Junior Cybersecurity / Penetration Tester",
+            "email": "mailto:borkolahos@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Novi Sad",
+                "addressCountry": "RS"
+            },
+            "sameAs": [
+                "https://www.linkedin.com/in/boris-lahos/",
+                "https://github.com/Jaddes"
+            ],
+            "knowsAbout": [
+                "Cybersecurity",
+                "Penetration Testing",
+                "Network Analysis",
+                "Kali Linux",
+                "SQL",
+                "Python"
+            ]
+        }
+    </script>
 </head>
 <body>
-    <header>
-        <h1>Boris Lahoš</h1>
-        <p>| Mrežni inženjer | Red Team početnik | Etikalni haker | Inženjer računarstva i automatike |</p>
-        <button id="theme-toggle">Promeni temu</button>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#o-meni">O meni</a></li>
-            <li><a href="#vestine">Veštine</a></li>
-            <li><a href="#projekti">Projekti</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-    </nav>
-    
-    <section id="o-meni">
-        <h2>O meni</h2>
-        <div class="o-meni-container">
-            <p>
-                Strastven sam u istraživanju <strong>Cybersecurity-ja</strong>, mrežnih tehnologija i njihovog povezivanja sa <strong>Cloud Engineering-om</strong>. 
-                Moje interesovanje za <strong>mrežnu sigurnost i optimizaciju infrastrukture</strong> dovelo me je do dubljeg istraživanja kako skalabilni i sigurni sistemi funkcionišu u cloud okruženjima.
-            </p>
-            <p>
-                Trenutno sam student <strong>Računarstva i Automatike (E2, 3. godina, PRNI pod smer)</strong> na <strong>Fakultetu Tehničkih Nauka</strong>. 
-                Tokom studija, aktivno radim na projektima vezanim za <strong>Cloud infrastrukturu, mrežnu arhitekturu i automatizaciju</strong>, sa fokusom na sigurnost i efikasnost sistema.
-            </p>
-            <p>
-                Učim brzo, prilagođavam se novim tehnologijama i otvoren sam za prilike u kojima mogu dodatno razvijati svoje veštine u 
-                <strong>Cloud inženjeringu, DevOps procesima i automatizaciji infrastrukture</strong>.
-            </p>
-        </div>
-    </section>
-    
-    
-    
-    
-    
-<section id="vestine">
-    <h2>Veštine</h2>
-    <div class="skills-container">
-        <div class="skill-card">Objektno-orijentisano programiranje (OOP) – enkapsulacija, nasledstvo, polimorfizam</div>
-        <div class="skill-card">Frontend razvoj (React, HTML, CSS, JavaScript)</div>
-        <div class="skill-card">SQL i rad sa bazama podataka (MySQL, PostgreSQL, MSSQL)</div>
-        <div class="skill-card">Git i kontrola verzija (GitHub, GitLab)</div>
-        <div class="skill-card">Mrežna sigurnost i penetration testing (CCNA, Kali Linux, Metasploit)</div>
-        <div class="skill-card">Cloud inženjering i DevOps principi</div>
+    <div class="site-backdrop" aria-hidden="true">
+        <div class="backdrop-grid"></div>
+        <div class="backdrop-glow backdrop-glow-left"></div>
+        <div class="backdrop-glow backdrop-glow-right"></div>
+        <div class="backdrop-orbit"></div>
     </div>
-</section>
 
-    
-    <section id="projekti">
-        <h2>Projekti</h2>
-        <div class="projects-container">
-            <div class="project-card">
-                <h3>Provera jačine lozinki</h3>
-                <p>Alat za analizu sigurnosti lozinki.</p>
+    <header class="site-header" id="top">
+        <a class="brand" href="#hero" aria-label="Početak stranice">
+            <span class="brand-mark">BL</span>
+            <span class="brand-copy">
+                <strong>Boris Lahoš</strong>
+                <span>Cybersecurity Portfolio</span>
+            </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Primarna navigacija">
+            <a href="#about">O meni</a>
+            <a href="#skills">Veštine</a>
+            <a href="#projects">Projekti</a>
+            <a href="#competitions">CTF</a>
+            <a href="#volunteering">Angažman</a>
+            <a href="#education">Obrazovanje</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+
+        <a class="button button-ghost header-button" href="#contact">Kontakt</a>
+    </header>
+
+    <main>
+        <section class="section hero-section" id="hero">
+            <div class="section-shell hero-shell">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow">Junior Cybersecurity / Penetration Tester</p>
+                    <h1>Praktičan sigurnosni rad, jasna tehnička osnova i dokaziv portfolio.</h1>
+                    <p class="hero-lead">
+                        Boris Lahoš je student završne godine računarstva i automatike (PRNI), fokusiran na cybersecurity i penetration testing.
+                        Portfolio je postavljen kao ozbiljan pregled praktičnog rada: lab okruženja, mrežna analiza, SQL i backend osnova,
+                        CTF takmičenja i community angažman koji potvrđuju kontinuitet učenja.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a class="button button-primary" href="#contact">Kontakt</a>
+                        <a class="button button-secondary" href="https://github.com/Jaddes" target="_blank" rel="noreferrer">GitHub</a>
+                        <a class="button button-secondary" href="https://www.linkedin.com/in/boris-lahos/" target="_blank" rel="noreferrer">LinkedIn</a>
+                        <!-- PLACE YOUR CV PDF HERE: public/docs/boris-lahos-cv.pdf -->
+                        <a class="button button-secondary" href="public/docs/boris-lahos-cv.pdf" target="_blank" rel="noreferrer">Download CV</a>
+                    </div>
+
+                    <div class="hero-metrics">
+                        <article class="metric-card surface">
+                            <span class="metric-label">Fokus</span>
+                            <strong>Pentest workflow</strong>
+                            <p>Lab scenariji, enumeracija, mrežni uvid i validacija nalaza.</p>
+                        </article>
+                        <article class="metric-card surface">
+                            <span class="metric-label">Inženjerska baza</span>
+                            <strong>Mreže, sistemi, baze</strong>
+                            <p>Security rad oslanjam na razumevanje infrastrukture, ne samo alata.</p>
+                        </article>
+                        <article class="metric-card surface">
+                            <span class="metric-label">Dokazi</span>
+                            <strong>Proof-based pristup</strong>
+                            <p>Svaka bitna sekcija ima prostor za screenshotove, linkove i reference.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <aside class="hero-panel surface reveal">
+                    <div class="profile-frame">
+                        <!-- PLACE YOUR PROFILE IMAGE HERE: replace public/images/profile/profile-placeholder.svg -->
+                        <img src="public/images/profile/profile-placeholder.svg" alt="Placeholder za profilnu fotografiju Borisa Lahoša">
+                    </div>
+
+                    <div class="profile-summary">
+                        <div>
+                            <span class="detail-label">Ime i prezime</span>
+                            <strong>Boris Lahoš</strong>
+                        </div>
+                        <div>
+                            <span class="detail-label">Lokacija</span>
+                            <strong>Novi Sad, Serbia</strong>
+                        </div>
+                        <div>
+                            <span class="detail-label">Trenutni fokus</span>
+                            <strong>Cybersecurity, penetration testing, hands-on lab rad</strong>
+                        </div>
+                    </div>
+
+                    <div class="quick-note">
+                        <span class="detail-label">Portfolio logika</span>
+                        <p>
+                            Stranica je organizovana tako da regruter brzo vidi tri stvari: tehnički smer, konkretne dokaze i aktivnosti koje potvrđuju kontinuitet rada.
+                        </p>
+                    </div>
+                </aside>
             </div>
-            <div class="project-card">
-                <h3>Alat za mapiranje mreže</h3>
-                <p>Prilagođeni Python skript za napredno skeniranje mreža.</p>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-shell">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">O meni</p>
+                    <h2>Cybersecurity fokus izgrađen na praktičnom radu i široj tehničkoj osnovi.</h2>
+                    <p>
+                        Najviše me zanima rad u kontrolisanim okruženjima u kojima mogu da razumem kako sistem funkcioniše, kako izgleda površina napada
+                        i kako se nalaz proverava pre nego što se predstavi kao validan. Pored sigurnosti, razvijam i širu osnovu kroz mreže, operativne sisteme,
+                        baze podataka, backend logiku i osnove AI alata koji mi pomažu u istraživanju i bržoj analizi.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <article class="surface about-main reveal">
+                        <p>
+                            Student sam završne godine računarstva i automatike (PRNI), sa fokusom na cybersecurity i penetration testing. Najveću vrednost vidim
+                            u radu koji je praktičan, ponovljiv i tehnički argumentovan: postavljanje lab okruženja, mapiranje servisa, analiza mrežnog saobraćaja,
+                            razumevanje osnova web i sistemske bezbednosti, kao i dokumentovanje nalaza bez preterivanja i bez oslanjanja samo na automatizovane alate.
+                        </p>
+                        <p>
+                            Kroz sopstvene projekte i CTF aktivnosti razvijam disciplinu da bezbednosni problem razložim na korake: šta je površina napada, koji su signali
+                            u mreži i sistemu, šta alat pokazuje, a šta mora ručno da se potvrdi. Takav pristup mi je važan zato što želim da budem inženjer koji razume
+                            uzrok i kontekst nalaza, a ne samo njegov rezultat.
+                        </p>
+                        <p>
+                            Van striktno security domena, gradim i stabilnu osnovu iz mreža, sistema, baza podataka, SQL-a, backend razvoja, Git workflow-a i osnova AI alata.
+                            To mi pomaže da sigurnost posmatram kao deo realnog sistema, a ne kao izdvojenu temu. Rado učim, brzo ulazim u novu dokumentaciju i najbolje napredujem
+                            kada mogu da testiram, upoređujem i beležim rezultate kroz konkretan rad.
+                        </p>
+                    </article>
+
+                    <div class="about-side">
+                        <article class="surface info-card reveal">
+                            <span class="detail-label">Kako radim</span>
+                            <strong>Metodično i bez prečica</strong>
+                            <p>Prvo razumem kontekst sistema, zatim enumerišem, testiram i beležim nalaze tako da budu proverljivi.</p>
+                        </article>
+                        <article class="surface info-card reveal">
+                            <span class="detail-label">Tehnički raspon</span>
+                            <strong>Mreže, sistemi, baze, AI osnove</strong>
+                            <p>Security mi je fokus, ali oslonac dolazi iz šireg inženjerskog razumevanja.</p>
+                        </article>
+                        <article class="surface info-card reveal">
+                            <span class="detail-label">Razvojni pravac</span>
+                            <strong>Junior security uloga sa hands-on rastom</strong>
+                            <p>Tražim okruženje u kome mogu da doprinosim kroz praktičan rad, jasnu dokumentaciju i kontinuirano učenje.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="section-shell">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Detaljne veštine</p>
+                    <h2>Veštine su predstavljene kroz rad, ne samo kroz spisak tehnologija.</h2>
+                    <p>
+                        Sekcija je strukturisana po oblastima koje direktno podržavaju cybersecurity putanju: od mrežne osnove i Linux okruženja,
+                        do SQL modelovanja i načina na koji koristim AI alate kao pomoć, a ne zamenu za proveru.
+                    </p>
+                </div>
+
+                <div class="skills-grid" id="skills-grid"></div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-shell">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Projekti i lab rad</p>
+                    <h2>Praktični rad sa jasnim dokazima, alatima i naučenim lekcijama.</h2>
+                    <p>
+                        Projekti su prikazani kao tehnički slučajevi. Svaki sadrži opis problema, korišćene tehnologije, dokazne slike i linkove koje kasnije možeš direktno dopuniti.
+                    </p>
+                </div>
+
+                <div class="projects-grid" id="projects-grid"></div>
+            </div>
+        </section>
+
+        <section class="section" id="competitions">
+            <div class="section-shell">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">CTF takmičenja</p>
+                    <h2>Takmičenja potvrđuju rad pod pritiskom i kontinuirano praktično učenje.</h2>
+                    <p>
+                        CTF sekcija je postavljena kao profesionalna validacija interesovanja za security: web, exploitation, cryptography i networking zadaci u vremenski ograničenom formatu.
+                    </p>
+                </div>
+
+                <div class="timeline" id="competitions-timeline"></div>
+            </div>
+        </section>
+
+        <section class="section" id="volunteering">
+            <div class="section-shell">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Volontiranje i community</p>
+                    <h2>Kredibilitet ne dolazi samo iz projekata, već i iz angažmana u zajednici.</h2>
+                    <p>
+                        Ova sekcija spaja tehničku i profesionalnu stranu profila: događaji, organizaciona podrška, komunikacija sa ljudima i rad u timu pod realnim rokovima.
+                    </p>
+                </div>
+
+                <div class="volunteering-grid" id="volunteering-grid"></div>
+            </div>
+        </section>
+
+        <section class="section" id="education">
+            <div class="section-shell">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Obrazovanje</p>
+                    <h2>Akademska osnova koja direktno podržava bezbednosni smer.</h2>
+                    <p>
+                        Ovde je cilj da se jasno vidi formalna osnova, ali i to kako je prevodim u praktičan rad kroz laboratorijske scenarije, projekte i takmičenja.
+                    </p>
+                </div>
+
+                <div class="education-grid">
+                    <article class="surface education-card reveal">
+                        <span class="detail-label">Studije</span>
+                        <h3>Računarstvo i automatika (PRNI)</h3>
+                        <p class="education-meta">Završna godina studija | Novi Sad</p>
+                        <p>
+                            Fokus mi je na predmetima i oblastima koje grade dobru security osnovu: računarske mreže, operativni sistemi, baze podataka, softversko inženjerstvo,
+                            backend logika i razumevanje arhitekture sistema.
+                        </p>
+                    </article>
+
+                    <article class="surface education-card reveal">
+                        <span class="detail-label">Relevantne oblasti</span>
+                        <h3>Tehnička širina iza security fokusa</h3>
+                        <div class="tag-list">
+                            <span class="tag">Računarske mreže</span>
+                            <span class="tag">Operativni sistemi</span>
+                            <span class="tag">Baze podataka</span>
+                            <span class="tag">SQL i JDBC</span>
+                            <span class="tag">Backend osnove</span>
+                            <span class="tag">Git workflow</span>
+                            <span class="tag">AI osnove</span>
+                        </div>
+                        <p>
+                            Kombinacija ovih oblasti mi omogućava da sigurnosne probleme posmatram u širem kontekstu sistema, aplikacije i infrastrukture.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="section-shell">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Kontakt</p>
+                    <h2>Otvoren za razgovor o praksi, junior ulozi i security projektima.</h2>
+                    <p>
+                        Ako tražiš kandidata koji gradi security osnovu kroz realan rad, dokumentovane dokaze i stabilan inženjerski pristup, slobodno se javi.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <article class="surface contact-card reveal">
+                        <span class="detail-label">Email</span>
+                        <a class="contact-link" href="mailto:borkolahos@gmail.com">borkolahos@gmail.com</a>
+                        <button class="button button-secondary small-button" id="copy-email" type="button">Kopiraj email</button>
+                        <p class="contact-feedback" id="copy-feedback" aria-live="polite"></p>
+                    </article>
+
+                    <article class="surface contact-card reveal">
+                        <span class="detail-label">LinkedIn</span>
+                        <a class="contact-link" href="https://www.linkedin.com/in/boris-lahos/" target="_blank" rel="noreferrer">linkedin.com/in/boris-lahos</a>
+                        <p>Za CV, profesionalni kontekst i direktan kontakt.</p>
+                    </article>
+
+                    <article class="surface contact-card reveal">
+                        <span class="detail-label">GitHub</span>
+                        <a class="contact-link" href="https://github.com/Jaddes" target="_blank" rel="noreferrer">github.com/Jaddes</a>
+                        <p>Za pregled koda, repozitorijuma i tehničkog rada.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="cv-qr">
+            <div class="section-shell">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">CV i QR</p>
+                    <h2>Stranica je pripremljena za upotrebu iz CV-ja, preko direktnog linka ili QR koda.</h2>
+                    <p>
+                        Ovaj blok služi kao brza ruta do CV-ja, GitHub-a i LinkedIn-a, uz jasno mesto za QR sliku koja vodi na portfolio.
+                    </p>
+                </div>
+
+                <div class="cv-grid">
+                    <article class="surface cv-card reveal">
+                        <span class="detail-label">Dokumenti i profili</span>
+                        <h3>Brz pristup ključnim referencama</h3>
+                        <div class="cta-stack">
+                            <a class="button button-primary" href="public/docs/boris-lahos-cv.pdf" target="_blank" rel="noreferrer">Preuzmi CV</a>
+                            <a class="button button-secondary" href="https://github.com/Jaddes" target="_blank" rel="noreferrer">GitHub profil</a>
+                            <a class="button button-secondary" href="https://www.linkedin.com/in/boris-lahos/" target="_blank" rel="noreferrer">LinkedIn profil</a>
+                        </div>
+                        <p class="support-copy">
+                            CV može da sadrži QR kod koji vodi direktno na ovaj portfolio, čime regruter dobija dublji kontekst, dokaze i linkove.
+                        </p>
+                    </article>
+
+                    <article class="surface qr-card reveal">
+                        <span class="detail-label">QR placeholder</span>
+                        <!-- PLACE YOUR QR IMAGE HERE: replace public/images/qr/portfolio-qr-placeholder.svg -->
+                        <img src="public/images/qr/portfolio-qr-placeholder.svg" alt="Placeholder za QR kod portfolija">
+                        <p>
+                            Zameni placeholder svojim stvarnim QR kodom koji vodi na deploy-ovanu verziju portfolio sajta.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Boris Lahoš • Junior Cybersecurity / Penetration Tester • <span id="current-year"></span></p>
+    </footer>
+
+    <div class="proof-modal" id="proof-modal" hidden>
+        <div class="proof-modal-backdrop" data-close-modal="true"></div>
+        <div class="proof-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="proof-modal-title">
+            <button class="modal-close" id="close-modal" type="button" aria-label="Zatvori prikaz">×</button>
+            <img id="modal-image" src="" alt="">
+            <div class="modal-meta">
+                <h3 id="proof-modal-title">Proof pregled</h3>
+                <p id="modal-caption"></p>
+            </div>
+            <div class="modal-controls">
+                <button class="button button-secondary small-button" id="prev-proof" type="button">Prethodna</button>
+                <button class="button button-secondary small-button" id="next-proof" type="button">Sledeća</button>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section id="sertifikati">
-        <h2>Sertifikati i Kursevi</h2>
-        <ul>
-            <li><strong>C# i Objektno-orijentisano programiranje (OOP)</strong> – Završio kurs "C# OOP" i "Operativni sistemi C#" gde sam produbio znanje naprednog OOP-a</li>
-            <li><strong>SQL i Relacioni model podataka</strong> – Naučio kroz predmet "Baze Podataka" na fakultetu</li>
-            <li><strong>CCNA - Osnove mreža</strong> – Završio srednju školu kao <strong>Administrator računarskih mreža</strong>, stekao znanja iz mrežnih tehnologija i konfiguracije mreža</li>
-            <li><strong>Penetration Testing with Kali Linux</strong> – TryHackMe kurs za etičko hakovanje i sigurnosnu analizu</li>
-        </ul>
-    </section>
-
-    
-    <section id="kontakt">
-        <h2>Kontakt</h2>
-        <p>Email: <a href="mailto:borkolahos@gmail.com">borkolahos@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/Jaddes" target="_blank">github.com/Jaddes</a></p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Boris Lahoš. Sva prava zadržana.</p>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
+

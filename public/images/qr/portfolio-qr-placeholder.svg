@@ -1,0 +1,35 @@
+﻿<svg width="920" height="920" viewBox="0 0 920 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="920" height="920" rx="44" fill="#08131D"/>
+  <rect x="40" y="40" width="840" height="840" rx="32" fill="#F4FBFF"/>
+  <rect x="104" y="104" width="180" height="180" rx="18" fill="#08131D"/>
+  <rect x="138" y="138" width="112" height="112" rx="10" fill="#F4FBFF"/>
+  <rect x="636" y="104" width="180" height="180" rx="18" fill="#08131D"/>
+  <rect x="670" y="138" width="112" height="112" rx="10" fill="#F4FBFF"/>
+  <rect x="104" y="636" width="180" height="180" rx="18" fill="#08131D"/>
+  <rect x="138" y="670" width="112" height="112" rx="10" fill="#F4FBFF"/>
+  <rect x="378" y="110" width="54" height="54" fill="#08131D"/>
+  <rect x="470" y="110" width="54" height="54" fill="#08131D"/>
+  <rect x="562" y="110" width="54" height="54" fill="#08131D"/>
+  <rect x="378" y="202" width="54" height="54" fill="#08131D"/>
+  <rect x="470" y="202" width="54" height="54" fill="#08131D"/>
+  <rect x="332" y="332" width="54" height="54" fill="#08131D"/>
+  <rect x="424" y="332" width="54" height="54" fill="#08131D"/>
+  <rect x="516" y="332" width="54" height="54" fill="#08131D"/>
+  <rect x="608" y="332" width="54" height="54" fill="#08131D"/>
+  <rect x="700" y="332" width="54" height="54" fill="#08131D"/>
+  <rect x="332" y="424" width="54" height="54" fill="#08131D"/>
+  <rect x="516" y="424" width="54" height="54" fill="#08131D"/>
+  <rect x="700" y="424" width="54" height="54" fill="#08131D"/>
+  <rect x="332" y="516" width="54" height="54" fill="#08131D"/>
+  <rect x="424" y="516" width="54" height="54" fill="#08131D"/>
+  <rect x="608" y="516" width="54" height="54" fill="#08131D"/>
+  <rect x="700" y="516" width="54" height="54" fill="#08131D"/>
+  <rect x="378" y="608" width="54" height="54" fill="#08131D"/>
+  <rect x="470" y="608" width="54" height="54" fill="#08131D"/>
+  <rect x="562" y="608" width="54" height="54" fill="#08131D"/>
+  <rect x="654" y="608" width="54" height="54" fill="#08131D"/>
+  <rect x="378" y="700" width="54" height="54" fill="#08131D"/>
+  <rect x="562" y="700" width="54" height="54" fill="#08131D"/>
+  <rect x="654" y="700" width="54" height="54" fill="#08131D"/>
+  <text x="460" y="846" fill="#08131D" font-family="'IBM Plex Mono', monospace" font-size="28" letter-spacing="3" text-anchor="middle">ZAMENI STVARNIM QR KODOM</text>
+</svg>

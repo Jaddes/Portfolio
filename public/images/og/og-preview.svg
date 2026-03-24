@@ -1,0 +1,18 @@
+﻿<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#06121A"/>
+  <circle cx="1350" cy="140" r="210" fill="#0A3240"/>
+  <circle cx="1260" cy="160" r="140" fill="#0E5163"/>
+  <rect x="86" y="84" width="1428" height="732" rx="36" fill="#091722" stroke="#173746" stroke-width="2"/>
+  <rect x="140" y="144" width="218" height="218" rx="32" fill="url(#paint0_linear)"/>
+  <text x="248" y="278" fill="#021015" font-family="'IBM Plex Mono', monospace" font-size="96" font-weight="600" text-anchor="middle">BL</text>
+  <text x="140" y="482" fill="#77F0D7" font-family="'IBM Plex Mono', monospace" font-size="28" letter-spacing="4">CYBERSECURITY PORTFOLIO</text>
+  <text x="140" y="590" fill="#EFF9FF" font-family="'Sora', sans-serif" font-size="84" font-weight="700">Boris Lahoš</text>
+  <text x="140" y="670" fill="#A3B7C6" font-family="'Sora', sans-serif" font-size="36">Junior Cybersecurity / Penetration Tester</text>
+  <text x="140" y="738" fill="#8CA5B7" font-family="'Sora', sans-serif" font-size="30">Projekti • CTF • Volontiranje • Proof-based portfolio</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="140" y1="144" x2="358" y2="362" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#77F0D7"/>
+      <stop offset="1" stop-color="#7CC6FF"/>
+    </linearGradient>
+  </defs>
+</svg>
